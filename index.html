@@ -57,7 +57,6 @@
 
     // Load your splat file
     const splat = new SplatMesh({ url: SPLAT_FILE });
-    splat.quaternion.set(1, 0, 0, 0);
     scene.add(splat);
 
     splat.initialized.then(() => {
